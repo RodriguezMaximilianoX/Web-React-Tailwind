@@ -5,8 +5,8 @@ import Home from '../pages/Home';
 
 const NavBar = () => {
   return (
-    <div className='navbar-container'>
-      <div className='logo'>
+    <div className='nav-container flex items-center justify-between'>
+      <div className='logo '>
         <img className='logo-img' src={Logo} alt='Logo' />
       </div>
       <ul className='nav'>

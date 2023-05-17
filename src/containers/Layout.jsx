@@ -4,7 +4,7 @@ import '../styles/Layout/Layout.css'
 
 const Layout = ({ children }) => {
   return (
-    <div className='body'>
+    <div className='body bg-blue-600'>
       <NavBar />
       { children }
     </div>
