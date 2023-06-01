@@ -1,13 +1,13 @@
 import Layout from "./containers/Layout";
 import Home from "./pages/Home";
 import Skills from "./pages/SkillsContainer";
-import '../src/index.css'
+import '../src/styles/App.css'
 
 
 
 function App() {
   return (
-    <div className="App box-border w-screen">
+    <div className="App box-border">
       <Layout>
         <Home />
         <Skills />
