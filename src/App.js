@@ -9,7 +9,7 @@ import AboutMe from "./pages/AboutMe";
 
 function App() {
   return (
-    <div className="App box-border h-screen">
+    <div className="App box-border">
       <BrowserRouter>
         <Layout>
           <Routes>

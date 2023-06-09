@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 const Layout = ({ children }) => {
   return (
-    <div className='body bg-white-800 h-screen'>
+    <div className='body bg-white-800'>
       <NavBar />
       { children }
       <Footer />

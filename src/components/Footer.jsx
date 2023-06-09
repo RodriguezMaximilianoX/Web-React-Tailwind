@@ -4,7 +4,7 @@ import '../styles/App.css'
 
 export default function Footer() {
   return (
-    <section className='inset-x-0 bottom-0 absolute h-32 bg-yellow-400'>
+    <section className='inset-x-0 bottom-0 absolute h-28 bg-blue-700'>
       <h4 className='font-bold py-3 text-xl mx-3'>Nos pongamos en contacto</h4>
       <div className='flex justify-around'>
         <div className='flex flex-col items-center'>

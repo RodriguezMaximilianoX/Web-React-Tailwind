@@ -8,7 +8,7 @@ export default function Skills () {
 
   return ( 
     <section className='flex flex-col flex-wrap w-auto'>
-      <h2 className='my-4 text-center font-bold'>Estos son mis conocimientos y habilidades</h2>
+      <h2 className='text-center font-bold text-xl my-5'>Estos son mis conocimientos y habilidades</h2>
       <Skill logos={logos} titulos={titulos}/>
     </section>
   )
